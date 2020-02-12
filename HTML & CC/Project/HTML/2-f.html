@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<script >
+		function sayhellow()
+		{
+			alert("Hello HTML")
+		}
+	</script>
+</head>
+<body>
+	<form name="register">
+		<fieldset>
+		<legend>Personal Information</legend>
+		<label>Username</label>
+		<input type="text" name="Username " maxlength="20">
+		<br>
+		<label>Passoword</label>
+		<input type="password" name="password"  >		
+        <br>      
+        <label>You Message</label> 
+		<br>
+		<textarea rows="6" cols="30">
+		</textarea>
+		<textarea  rows="6" cols="30" readonly >This not you can't Edite</textarea> 
+		<br>
+		 <label>Upload your cv </label>
+        <input type="file" name="">
+        <br>
+		<input type="checkbox"><label>Remember Me</label>
+        <br>
+        
+        </fieldset>
+
+
+
+
+        <fieldset>
+
+        	<legend>Your Favourite</legend>
+        	<label>Your Age</label>
+        	<select name="age" >
+        		<optgroup label="Adult">
+	        		<option>12-18</option>
+	        		<option>18-24</option>
+	        		<option>24-30</option>
+        		</optgroup>
+        		<optgroup label="Not">
+	        		<option>30-40</option>
+	        		<option>40-50</option>
+	        		<option>50-60</option>
+        		<option disabled >60-...</option>
+        		</optgroup>
+        	</select>
+        	<br>
+        <LABEL>Chooes your Brower</LABEL>
+
+        <br>
+        <input type="radio" name="browers" value="Chrome" >Chrome <br>
+        <input type="radio" name="browers" value="Mozilla">Mozilla <br>
+        <input type="radio" name="browers" value="Opera"> Opera<br>
+        </fieldset>
+        <br>
+    	<fieldset>
+        <legend>Send Options</legend>
+		<input type="submit" name="Sign Up">
+		<input type="button" name="Say Hello" value="Say Hello" onclick="sayhellow()">
+		<input type="reset" value="Restor Default" >
+		
+		<input type="hidden" name="testing">
+		
+    	</fieldset>
+		
+
+
+<input type="image" src="img//sj.jpg" alt="sj">
+		</form>
+</body>
+</html>
