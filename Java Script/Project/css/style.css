@@ -1,0 +1,136 @@
+/*Start Global */
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+body{
+
+}
+
+.coutainer{
+	width:1156px;
+	margin:auto; 
+
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+/*End global*/
+
+
+/*Start navbar */
+	.navbar{
+	    font-size: 17px;
+	    height: 0;
+	    color: #FFF;
+	    position: relative;
+	    z-index: 3;
+}
+	.navbar .brand
+	{	font-size: 21px;
+		float: left;
+		width: 40%;
+		text-transform: uppercase;
+	}
+	.navbar .links
+	{
+		float: right;
+		width: 44%;
+		font-weight: bold;
+		margin-top: 17px;
+	}
+	.navbar .links li
+	{
+		display: inline-block;
+		padding: 10px 0px;
+		margin: 4px 10px;
+		border-bottom: 2px solid transparent ;
+
+	}
+	.navbar .links li a 
+	{
+		text-decoration: none;
+		color: #FFF;
+
+	}
+	.navbar .links li.active,
+	.navbar .links li:hover{
+		color: #56BC9C ;
+		border-bottom: 2px solid #56BC9C ;
+
+	}
+	.navbar .links li.active a ,
+	.navbar .links li a:hover{
+		color: #56BC9C ;
+
+
+	}
+
+/*End navbar*/
+
+/* Start Header */
+.header
+{
+	background:url('../img/background.jpg');
+	position: relative;
+}
+.header .overlay
+{
+	color: #FFF;
+	z-index: 1;
+	color: red;
+
+}
+.header .bx-wrapper{
+    box-shadow: none;
+    border: 0;
+    background: none;
+	color:#fff;
+ 	
+    text-align:center;
+    margin: 0;
+    height: 100%!important;
+}
+
+.header .bx-wrapper .bx-viewport
+{
+ 	height:100% !important;
+}
+ 
+.header .slider{
+ 	height:100%;
+}
+
+.slider div {
+	height:200px;
+ }
+
+.header .slider h1{
+	font-size: 5em;
+    margin: -0.33em 0;
+
+
+} 
+
+.header .slider p{
+	padding: 10px;
+	font-size: 18px;
+
+} 
+
+.header .slider h1 span{
+	
+	color: #56BC9C;
+} 
+
+/* End Header*?
+
+
+/* Start My Framework */
+.clearfix{
+	clear: both;
+}
+/* End My Framework */
